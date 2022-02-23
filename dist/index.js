@@ -12,6 +12,7 @@ app.use((0, cors_1.default)());
 app.get('/', (request, response) => {
     return response.send('OK');
 });
+const port = process.env.PORT || 8080;
 app.listen(8080, () => {
     console.log('API Rodando ...');
 });
