@@ -19,5 +19,7 @@
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
     "build": "tsc",
     "start": "node ./list"
-  }
+  },
+  "repository": "https://github.com/JoelsonT/growdev-teste.git",
+  "author": "JoelsonT <joelson.unisinos@gmail.com>"
 }
